@@ -1,0 +1,42 @@
+2018-09-11 11:52:14
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"03|04|05","position":[["2"],["3"],["4"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"sanma.zhixuan.fushi","typeCN":"三码,直选,前三直选复式","viewBalls":"03|04|05","wayId":"112","jsId":0,"totalMoney":2,"rebate":"0.000000"}],"gameId":2,"isTrace":0,"orders":{"18091121":1},"traceWinStop":1,"gameNameCn":"SD115"}
+=====================
+2018-09-11 11:54:31
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"03|04|05","position":[["2"],["3"],["4"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"sanma.zhixuan.fushi","typeCN":"三码,直选,前三直选复式","viewBalls":"03|04|05","wayId":"112","jsId":0,"totalMoney":2,"rebate":"0.000000"}],"gameId":9,"isTrace":0,"orders":{"18091118":1},"traceWinStop":1,"gameNameCn":"GD115"}
+=====================
+2018-09-11 12:08:32
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"01 02 03","position":[],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"sanma.zuxuan.danshi","typeCN":"三码,组选,前三组选单式","viewBalls":"01 02 03","wayId":"97","jsId":0,"totalMoney":2,"rebate":"0.000000"}],"gameId":9,"isTrace":0,"orders":{"18091119":1},"traceWinStop":1,"gameNameCn":"GD115"}
+=====================
+2018-09-11 12:21:42
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"01 02 03","position":[["0","1","2"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"sanma.zuxuan.fushi","typeCN":"三码,组选,前三组选复式","viewBalls":"01 02 03","wayId":"108","jsId":0,"totalMoney":2,"rebate":"0.000000"}],"gameId":9,"isTrace":0,"orders":{"18091121":1},"traceWinStop":1,"gameNameCn":"GD115"}
+=====================
+2018-09-11 12:24:30
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"01 02|03","position":[["0","1"],["2"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"sanma.zuxuan.dantuo","typeCN":"三码,组选,前三组选胆拖","viewBalls":"01 02|03","wayId":"121","jsId":0,"totalMoney":2,"rebate":"0.000000"}],"gameId":9,"isTrace":0,"orders":{"18091121":1},"traceWinStop":1,"gameNameCn":"GD115"}
+=====================
+2018-09-11 13:46:30
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"01 02|03","position":[["0","1"],["2"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"sanma.zuxuan.dantuo","typeCN":"三码,组选,前三组选胆拖","viewBalls":"01 02|03","wayId":"121","jsId":0,"totalMoney":2,"rebate":"0.000000"}],"gameId":9,"isTrace":0,"orders":{"18091129":1},"traceWinStop":1,"gameNameCn":"GD115"}
+=====================
+2018-09-11 14:03:59
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"01","position":[["0"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"budingwei.budingwei.budingwei","typeCN":"不定位,不定位,前三不定位","viewBalls":"01","wayId":"122","jsId":0,"totalMoney":2,"rebate":"0.000000"}],"gameId":9,"isTrace":0,"orders":{"18091131":1},"traceWinStop":1,"gameNameCn":"GD115"}
+=====================
+2018-09-11 14:08:33
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"03","position":[["0"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"quweixing.quweixing.caizhongwei","typeCN":"趣味型,趣味型,猜中位","viewBalls":"03","wayId":"110","jsId":0,"totalMoney":2,"rebate":"0.000000"}],"gameId":9,"isTrace":0,"orders":{"18091131":1},"traceWinStop":1,"gameNameCn":"GD115"}
+=====================
+2018-09-11 14:11:27
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"3","position":[["2"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"quweixing.quweixing.dingdanshuang","typeCN":"趣味型,趣味型,定单双","viewBalls":"3单2双","wayId":"109","jsId":0,"totalMoney":2,"rebate":"0.000000"}],"gameId":9,"isTrace":0,"orders":{"18091132":1},"traceWinStop":1,"gameNameCn":"GD115"}
+=====================
+2018-09-11 14:14:53
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"02 03","position":[["1","2"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"renxuanfushi.renxuanfushi.renxuaner","typeCN":"任选复式,任选复式,任选二中二复式","viewBalls":"02 03","wayId":"99","jsId":0,"totalMoney":2,"rebate":"0.000000"}],"gameId":9,"isTrace":0,"orders":{"18091132":1},"traceWinStop":1,"gameNameCn":"GD115"}
+=====================
+2018-09-11 14:17:02
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"02 03 04","position":[],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"renxuandanshi.renxuandanshi.renxuansan","typeCN":"任选单式,任选单式,任选三中三单式","viewBalls":"02 03 04","wayId":"88","jsId":0,"totalMoney":2,"rebate":"0.000000"}],"gameId":9,"isTrace":0,"orders":{"18091132":1},"traceWinStop":1,"gameNameCn":"GD115"}
+=====================
+2018-09-11 14:25:07
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"01|02 03","position":[["0"],["1","2"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"renxuandantuo.renxuandantuo.renxuansan","typeCN":"任选胆拖,任选胆拖,任选三中三胆拖","viewBalls":"01|02 03","wayId":"114","jsId":0,"totalMoney":2,"rebate":"0.000000"}],"gameId":9,"isTrace":0,"orders":{"18091133":1},"traceWinStop":1,"gameNameCn":"GD115"}
+=====================
+2018-09-11 14:35:13
+user_id:17==>data:{"amount":"8.0000","balls":[{"ball":"01|02|03|04|","position":[["0"],["1"],["2"],["3"],[]],"extra":{},"moneyunit":"1.000","multiple":"1","num":4,"onePrice":2,"prizeGroup":"1950","type":"dingweidan.dingweidan.dingweidan","typeCN":"定位胆,定位胆,定位胆","viewBalls":"01|02|03|04|","wayId":"106","jsId":0,"totalMoney":8,"rebate":"0.000000"}],"gameId":9,"isTrace":0,"orders":{"18091134":1},"traceWinStop":1,"gameNameCn":"GD115"}
+=====================
+2018-09-11 14:45:11
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"06 08","position":[["5","7"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"caibuchu.caibuchu.cbc2","typeCN":"猜不出,猜不出,猜2不出","viewBalls":"06 08","wayId":"381","jsId":0,"totalMoney":2,"rebate":"0.000000"}],"gameId":9,"isTrace":0,"orders":{"18091135":1},"traceWinStop":1,"gameNameCn":"GD115"}
+=====================

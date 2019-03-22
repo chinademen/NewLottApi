@@ -1,0 +1,18 @@
+2018-09-20 14:56:25
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"1","position":[["0"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"dx.dx.fs","typeCN":"大小,大小,大小","viewBalls":"大","wayId":"165","jsId":1,"totalMoney":2,"rebate":"0.000000"}],"gameId":15,"isTrace":0,"orders":{"20180920039":1},"traceWinStop":1,"gameNameCn":"JSK3"}
+=====================
+2018-09-20 15:08:50
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"1","position":[["0"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"dx.dx.fs","typeCN":"大小,大小,大小","viewBalls":"大","wayId":"165","jsId":1,"totalMoney":2,"rebate":"0.000000"}],"gameId":15,"isTrace":0,"orders":{"20180920039":1},"traceWinStop":1,"gameNameCn":"JSK3"}
+=====================
+2018-09-20 15:10:02
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"1","position":[["0"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"ds.ds.fs","typeCN":"单双,单双,单双","viewBalls":"单","wayId":"166","jsId":2,"totalMoney":2,"rebate":"0.000000"}],"gameId":15,"isTrace":0,"orders":{"20180920041":1},"traceWinStop":1,"gameNameCn":"JSK3"}
+=====================
+2018-09-20 15:12:22
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"1","position":[["0"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"ds.ds.fs","typeCN":"单双,单双,单双","viewBalls":"单","wayId":"166","jsId":2,"totalMoney":2,"rebate":"0.000000"}],"gameId":15,"isTrace":0,"orders":{"20180920041":1},"traceWinStop":1,"gameNameCn":"JSK3"}
+=====================
+2018-09-20 15:14:03
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"1","position":[["0"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"ds.ds.fs","typeCN":"单双,单双,单双","viewBalls":"单","wayId":"166","jsId":2,"totalMoney":2,"rebate":"0.000000"}],"gameId":15,"isTrace":0,"orders":{"20180920041":1},"traceWinStop":1,"gameNameCn":"JSK3"}
+=====================
+2018-09-20 15:28:54
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"1","position":[["0"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"dx.dx.fs","typeCN":"大小,大小,大小","viewBalls":"大","wayId":"165","jsId":0,"totalMoney":2,"rebate":"0.000000"}],"gameId":15,"isTrace":0,"orders":{"20180920042":1},"traceWinStop":1,"gameNameCn":"JSK3"}
+=====================

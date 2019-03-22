@@ -1,0 +1,765 @@
+swagger: "2.0"
+info:
+  title: 新彩票中心API调试窗口
+  description: 可以直接调用api,所有aes加密数据清到/aes模块进行加密
+  version: 1.0.0
+basePath: /v1
+paths:
+  /admin/calculate_prize.do:
+    post:
+      tags:
+      - admin
+      description: 计奖
+      operationId: AdminApiController.Calculate Prize
+      parameters:
+      - in: formData
+        name: params
+        description: 参数 lottery_id=xxx&issue=xxx&new_code=xxx&admin_name=xxx&sign=xxx
+        required: true
+        type: string
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /admin/cancel_issue.do:
+    post:
+      tags:
+      - admin
+      description: 撤销指定奖期内的所有正常注单
+      operationId: AdminApiController.Cancel Issue
+      parameters:
+      - in: formData
+        name: params
+        description: 参数 lottery_id=xxx&issue=xxx&begin_time=xxx&admin_name=xxx&sign=xx
+        required: true
+        type: string
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /admin/cancel_prize.do:
+    post:
+      tags:
+      - admin
+      description: 取消原来号码重计奖
+      operationId: AdminApiController.Cancel Prize
+      parameters:
+      - in: formData
+        name: params
+        description: 参数 lottery_id=xxx&issue=xxx&new_code=xxx&admin_name=xxx&sign=xx
+        required: true
+        type: string
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /admin/cancel_project.do:
+    post:
+      tags:
+      - admin
+      description: 撤销指定注单
+      operationId: AdminApiController.Cancel Project
+      parameters:
+      - in: formData
+        name: params
+        description: 参数 project_id=xxx&admin_name=xxx&sign=xx
+        required: true
+        type: string
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /admin/cancel_trace.do:
+    post:
+      tags:
+      - admin
+      description: 终止指定追号
+      operationId: AdminApiController.Cancel Trace
+      parameters:
+      - in: formData
+        name: params
+        description: 参数 project_id=xxx&admin_name=xxx&sign=xx
+        required: true
+        type: string
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /admin/make_issue_cache.do:
+    post:
+      tags:
+      - admin
+      description: 生成奖期缓存
+      operationId: AdminApiController.Make Issue Cache
+      parameters:
+      - in: formData
+        name: params
+        description: 参数 lottery_id=xxx&admin_name=xxx&sign=xx
+        required: true
+        type: string
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /aes/encrypt.do:
+    post:
+      tags:
+      - aes
+      description: 用来产生aes数据
+      operationId: AesController.AesEncryptString
+      parameters:
+      - in: query
+        name: merchant_identity
+        description: 接入商 比如TEST001
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.IdentityInputType'
+      - in: query
+        name: params
+        description: param参数的明文
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /game/account_change_list.do:
+    post:
+      tags:
+      - game
+      description: 账变记录
+      operationId: GameController.account_change_list
+      parameters:
+      - in: query
+        name: params
+        description: created_at_from=开始时间&created_at_to=结束时间&type_id=账变类别ID&page=1&rows=20
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /game/bet.do:
+    post:
+      tags:
+      - game
+      description: 根据前端提交过来的用户投注数据完成下注功能
+      operationId: GameController.Bet
+      parameters:
+      - in: query
+        name: params
+        description: param参数
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /game/bet_record_list.do:
+    post:
+      tags:
+      - game
+      description: 获取投注记录列表
+      operationId: GameController.GetProjectListServer
+      parameters:
+      - in: query
+        name: params
+        description: param参数
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /game/cancel_issue_trace.do:
+    post:
+      tags:
+      - game
+      description: 取消某期追号
+      operationId: TraceController.cancel_issue_trace
+      parameters:
+      - in: query
+        name: params
+        description: trace_id=关联追号ID&ids=[1,2,3,4,5]追号详情ID
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /game/cancel_project.do:
+    post:
+      tags:
+      - game
+      description: 用户撤单
+      operationId: GameController.cancel_project
+      parameters:
+      - in: query
+        name: params
+        description: id=注单ID
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /game/cancel_trace.do:
+    post:
+      tags:
+      - game
+      description: 终止追号
+      operationId: TraceController.cancel_trace
+      parameters:
+      - in: query
+        name: params
+        description: id=追号ID
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /game/current_user_info.do:
+    post:
+      tags:
+      - game
+      description: 用戶及賬戶信息,author(leon)
+      operationId: GameController.CurrentUserInfo
+      parameters:
+      - in: query
+        name: merchant_identity
+        description: 接入方标识代码 如:JMG
+        required: true
+        type: string
+      - in: query
+        name: params
+        description: token=xxx&terminal_id=xxx
+        required: true
+        type: string
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /game/get_select_lottery.do:
+    post:
+      tags:
+      - game
+      operationId: TraceController.SelectLotteries
+      parameters:
+      - in: query
+        name: params
+        description: param参数
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /game/project_detailt.do:
+    post:
+      tags:
+      - game
+      description: 获取某个注单详情
+      operationId: GameController.project_detailt
+      parameters:
+      - in: query
+        name: params
+        description: param参数
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /game/tides.do:
+    post:
+      tags:
+      - game
+      description: 开奖走势
+      operationId: GameController.trend
+      parameters:
+      - in: query
+        name: params
+        description: lottery_id=彩种ＩＤ,num_type=玩法：五星四星前三...
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /game/trace_detailt.do:
+    post:
+      tags:
+      - game
+      description: 追号详情
+      operationId: TraceController.trace_detailt
+      parameters:
+      - in: query
+        name: params
+        description: id=追号ID
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /game/trace_list.do:
+    post:
+      tags:
+      - game
+      description: 追号列表
+      operationId: TraceController.trace_list
+      parameters:
+      - in: query
+        name: params
+        description: created_at_from=开始时间&created_at_to=结束时间&page=页&lottery_id=彩种id&status=状态&start_issue=开始奖期
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /game/trace_project_detail.do:
+    post:
+      tags:
+      - game
+      description: 获得追号注单详情,author(leon)
+      operationId: TraceController.GetTraceProjectDetail
+      parameters:
+      - in: query
+        name: params
+        description: id=追号ID
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /public/get_bet_record.do:
+    post:
+      tags:
+      - public
+      description: 以分頁形式返回遊戲記錄,author(leon）
+      operationId: PublicController.GetBetRecord
+      parameters:
+      - in: query
+        name: params
+        description: param参数(token=)
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /public/get_game_menu.do:
+    post:
+      tags:
+      - public
+      description: 以分组形式返回游戏列表,author(leon）
+      operationId: PublicController.GetGameMenu,author(leon）
+      parameters:
+      - in: query
+        name: params
+        description: param参数
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /public/load-data.do:
+    post:
+      tags:
+      - public
+      description: 根据传递过来的token和游戏标记打开对应的彩票选号盘,author(leon）
+      operationId: PublicController.Load
+      parameters:
+      - in: query
+        name: params
+        description: param参数
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /public/load-numbers.do:
+    post:
+      tags:
+      - public
+      description: 历史奖期数据加载地址(20条),author(leon）
+      operationId: PublicController.LoadIssues
+      parameters:
+      - in: query
+        name: params
+        description: param参数
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /public/lottery_data.do:
+    post:
+      tags:
+      - public
+      description: 商户可以投注的彩种数据,author(leon）
+      operationId: PublicController.LotteryData
+      parameters:
+      - in: query
+        name: params
+        description: param参数
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /public/notice_list.do:
+    post:
+      tags:
+      - public
+      description: 前端请求加载公告标题和内容数据(20条),author(leon）
+      operationId: PublicController.NoticeList
+      parameters:
+      - in: query
+        name: params
+        description: param参数
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /public/plat_prize_data.do:
+    post:
+      tags:
+      - public
+      description: 平台最新中奖信息和昨日总派奖金额,author(leon）
+      operationId: PublicController.PlatPrizeData,author(leon）
+      parameters:
+      - in: query
+        name: params
+        description: param参数
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /public/print_projects.do:
+    post:
+      tags:
+      - public
+      description: 打印注单,author(leon）
+      operationId: PublicController.PrintProjects
+      parameters:
+      - in: query
+        name: params
+        description: param参数(token=)
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /public/test.do:
+    post:
+      tags:
+      - public
+      description: 測試接口,author(leon）
+      operationId: PublicController.Test
+      parameters:
+      - in: query
+        name: params
+        description: param参数(token=)
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /public/token.do:
+    post:
+      tags:
+      - public
+      description: 验证token是否正確,阻止非法登陸,author(leon）
+      operationId: PublicController.Token
+      parameters:
+      - in: query
+        name: params
+        description: token=1&ip=2,ip=接口调用方服务器IP
+        required: true
+        type: string
+      responses:
+        "200":
+          description: "{JsonOut}\tsuccess!"
+        "500":
+          description: error
+  /user/balance.do:
+    post:
+      tags:
+      - user
+      description: 用户额度查询,author(leon)
+      operationId: UserController.Balance
+      parameters:
+      - in: query
+        name: merchant_identity
+        description: 接入方标识代码 如:JMG
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.IdentityInputType'
+      - in: query
+        name: params
+        description: param参数
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /user/edit.do:
+    post:
+      tags:
+      - user
+      description: 根据商户传递过来的用户信息变更用户在彩票中心的密码或奖金组,editor(leon)
+      operationId: UserController.Edit
+      parameters:
+      - in: query
+        name: merchant_identity
+        description: 接入方标识代码 如:JMG
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.IdentityInputType'
+      - in: query
+        name: params
+        description: param参数
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /user/init.do:
+    post:
+      tags:
+      - user
+      description: 初始化用户
+      operationId: UserController.InitUser
+      parameters:
+      - in: query
+        name: merchant_identity
+        description: 接入方标识代码 如:JMG
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.IdentityInputType'
+      - in: query
+        name: params
+        description: param参数; username, password, prize_group, ip
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /user/login.do:
+    post:
+      tags:
+      - user
+      description: 用户登录
+      operationId: UserController.Login
+      parameters:
+      - in: query
+        name: merchant_identity
+        description: 接入方标识代码 如:JMG
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.IdentityInputType'
+      - in: query
+        name: params
+        description: param参数
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /user/test.do:
+    post:
+      tags:
+      - user
+      description: test
+      operationId: UserController.test
+      parameters:
+      - in: query
+        name: merchant_identity
+        description: 接入方标识代码 如:JMG
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.IdentityInputType'
+      - in: query
+        name: params
+        description: param参数
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /user/transfer.do:
+    post:
+      tags:
+      - user
+      description: 转移额度订单,author(leon)
+      operationId: UserController.Transfer
+      parameters:
+      - in: query
+        name: merchant_identity
+        description: 接入方标识代码 如:JMG
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.IdentityInputType'
+      - in: query
+        name: params
+        description: param参数
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /user/transferinfo.do:
+    post:
+      tags:
+      - user
+      description: 根据商户传递过来的用户信息从彩票中心查询额度转入订单的状态信息,editor(leon)
+      operationId: UserController.Transferinfo
+      parameters:
+      - in: query
+        name: merchant_identity
+        description: 接入方标识代码 如:JMG
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.IdentityInputType'
+      - in: query
+        name: params
+        description: param参数
+        required: true
+        schema:
+          $ref: '#/definitions/controllers.ParamsInputType'
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+  /user/user_prize_set.do:
+    post:
+      tags:
+      - user
+      description: 修改用户彩种奖金组
+      operationId: UserController.UserPrizeSet
+      parameters:
+      - in: query
+        name: merchant_identity
+        description: 接入方标识代码 如:JMG
+        required: true
+        type: string
+      - in: query
+        name: params
+        description: 参数username=xxx&prize_group=1950
+        required: true
+        type: string
+      responses:
+        "200":
+          description: '{JsonOut}  success!'
+        "500":
+          description: error
+definitions:
+  controllers.IdentityInputType:
+    title: IdentityInputType
+    type: object
+  controllers.ParamsInputType:
+    title: ParamsInputType
+    type: object
+tags:
+- name: aes
+  description: |
+    AesController AesController
+- name: user
+  description: |
+    UserController 用户类
+- name: public
+  description: |
+    PublicController 公共类
+- name: xml
+  description: |
+    XMLController xml操作
+- name: game
+  description: |
+    TraceController 追号类
+- name: admin
+  description: |
+    AdminController 后台调用

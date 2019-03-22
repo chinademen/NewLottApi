@@ -1,0 +1,45 @@
+2018-09-04 12:03:30
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"投注金額錯誤","tplData":null},"isSuccess":false,"type":4020}
+=====================
+2018-09-04 12:11:52
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"123","way":"190"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-04 17:46:44
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"2|3|4","way":"65"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-04 17:48:28
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"588","way":"9"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-04 17:49:39
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"588","way":"9"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-04 18:13:22
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"2|3|4|5|6","way":"179"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-04 18:18:43
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"投注金額錯誤","tplData":null},"isSuccess":false,"type":4020}
+=====================
+2018-09-04 18:25:12
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"投注金額錯誤","tplData":null},"isSuccess":false,"type":4020}
+=====================
+2018-09-04 18:28:11
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"投注金額錯誤","tplData":null},"isSuccess":false,"type":4020}
+=====================
+2018-09-04 18:30:44
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"01 02 03","way":"419"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-04 18:31:31
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"01 02 03 04","way":"420"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-04 18:32:53
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"投注金額錯誤","tplData":null},"isSuccess":false,"type":4020}
+=====================
+2018-09-04 18:49:47
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"01 02 03","way":"424"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-04 18:52:09
+user_id:17==>data:{"data":{"link":"/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"01 02","way":"425"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-04 19:00:09
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"01 02 03","way":"419"}}},"isSuccess":true,"type":200}
+=====================

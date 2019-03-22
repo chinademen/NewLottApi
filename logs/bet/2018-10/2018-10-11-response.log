@@ -1,0 +1,21 @@
+2018-10-11 17:30:07
+user_id:1==>data:{"bet_record_id":2893,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"投注总额过低(必须大于2分钱)","tplData":null},"isSuccess":false,"type":4023}
+=====================
+2018-10-11 17:33:29
+user_id:1==>data:{"bet_record_id":2894,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"投注总额过低(必须大于2分钱)","tplData":null},"isSuccess":false,"type":4023}
+=====================
+2018-10-11 17:45:18
+user_id:1==>data:{"bet_record_id":2895,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"投注总额过低(必须大于2分钱)","tplData":null},"isSuccess":false,"type":4023}
+=====================
+2018-10-11 17:47:43
+user_id:1==>data:{"bet_record_id":2896,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"投注总额过低(必须大于2分钱)","tplData":null},"isSuccess":false,"type":4023}
+=====================
+2018-10-11 17:48:06
+user_id:1==>data:{"bet_record_id":2897,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"9|9|9","way":"69"}}},"isSuccess":true,"type":200}
+=====================
+2018-10-11 17:48:15
+user_id:1==>data:{"bet_record_id":2898,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"投注总额过低(必须大于2分钱)","tplData":null},"isSuccess":false,"type":4023}
+=====================
+2018-10-11 17:49:21
+user_id:1==>data:{"bet_record_id":2899,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"投注总额过低(必须大于2分钱)","tplData":null},"isSuccess":false,"type":4023}
+=====================

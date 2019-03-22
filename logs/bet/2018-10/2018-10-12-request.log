@@ -1,0 +1,66 @@
+2018-10-12 14:11:22
+user_id:17==>data:{"amount":"6.0000","balls":[{"ball":"1|2|3","position":[["0","1","2"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":3,"onePrice":2,"prizeGroup":"1950","type":"sth.sth.dx","typeCN":"三同号,三同号,三同号单选","viewBalls":"111|222|333","wayId":"158","jsId":0,"totalMoney":6,"rebate":"0.000000"}],"gameId":15,"isTrace":0,"orders":{"20181012035":1},"traceWinStop":1,"gameNameCn":"江苏快三"}
+=====================
+2018-10-12 14:22:35
+user_id:17==>data:{"amount":"6.0000","balls":[{"ball":"1|2|3","position":[["0","1","2"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":3,"onePrice":2,"prizeGroup":"1950","type":"sth.sth.dx","typeCN":"三同号,三同号,三同号单选","viewBalls":"111|222|333","wayId":"158","jsId":0,"totalMoney":6,"rebate":"0.000000"}],"gameId":15,"isTrace":0,"orders":{"20181012035":1},"traceWinStop":1,"gameNameCn":"江苏快三"}
+=====================
+2018-10-12 14:52:12
+user_id:17==>data:{"amount":"6.0000","balls":[{"ball":"1|2|3","position":[["0","1","2"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":3,"onePrice":2,"prizeGroup":"1950","type":"sth.sth.dx","typeCN":"三同号,三同号,三同号单选","viewBalls":"111|222|333","wayId":"158","jsId":0,"totalMoney":6,"rebate":"0.000000"}],"gameId":15,"isTrace":0,"orders":{"20181012035":1},"traceWinStop":1,"gameNameCn":"江苏快三"}
+=====================
+2018-10-12 14:57:24
+user_id:17==>data:{"amount":"6.0000","balls":[{"ball":"1|2|3","position":[["0","1","2"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":3,"onePrice":2,"prizeGroup":"1950","type":"sth.sth.dx","typeCN":"三同号,三同号,三同号单选","viewBalls":"111|222|333","wayId":"158","jsId":0,"totalMoney":6,"rebate":"0.000000"}],"gameId":15,"isTrace":0,"orders":{"20181012035":1},"traceWinStop":1,"gameNameCn":"江苏快三"}
+=====================
+2018-10-12 14:58:16
+user_id:17==>data:{"amount":"6.0000","balls":[{"ball":"1|2|3","position":[["0","1","2"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":3,"onePrice":2,"prizeGroup":"1950","type":"sth.sth.dx","typeCN":"三同号,三同号,三同号单选","viewBalls":"111|222|333","wayId":"158","jsId":0,"totalMoney":6,"rebate":"0.000000"}],"gameId":15,"isTrace":0,"orders":{"20181012035":1},"traceWinStop":1,"gameNameCn":"江苏快三"}
+=====================
+2018-10-12 15:05:59
+user_id:17==>data:{"amount":"6.0000","balls":[{"ball":"1|2|3","position":[["0","1","2"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":3,"onePrice":2,"prizeGroup":"1950","type":"sth.sth.dx","typeCN":"三同号,三同号,三同号单选","viewBalls":"111|222|333","wayId":"158","jsId":0,"totalMoney":6,"rebate":"0.000000"}],"gameId":15,"isTrace":0,"orders":{"20181012035":1},"traceWinStop":1,"gameNameCn":"江苏快三"}
+=====================
+2018-10-12 15:47:42
+user_id:17==>data:{"amount":"4.0000","balls":[{"ball":"8|9","position":[["5","6"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":2,"onePrice":2,"prizeGroup":"1950","type":"hz.hz.fs","typeCN":"和值,和值,和值","viewBalls":"8|9","wayId":"157","jsId":1,"totalMoney":4,"rebate":"0.000000"}],"gameId":15,"isTrace":0,"orders":{"20181012044":1},"traceWinStop":1,"gameNameCn":"江苏快三"}
+=====================
+2018-10-12 17:55:28
+user_id:1==>data:{"amount":"20.0000","balls":[{"ball":"8|8","position":[["8"],["8"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"erxing.zhixuan.houerfushi","typeCN":"二星,直选,后二复式","viewBalls":"8|8","wayId":"70","jsId":1,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"},{"ball":"9|9","position":[["9"],["9"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"erxing.zhixuan.houerfushi","typeCN":"二星,直选,后二复式","viewBalls":"9|9","wayId":"70","jsId":0,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":1,"isTrace":1,"orders":{"181012072":"1","181012073":"1","181012074":"1","181012075":"1","181012076":"1"},"traceWinStop":1,"gameNameCn":"重庆时时彩","traceTimes":5}
+=====================
+2018-10-12 17:55:43
+user_id:1==>data:{"amount":"10.0000","balls":[{"ball":"9|9","position":[["9"],["9"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"erxing.zhixuan.houerfushi","typeCN":"二星,直选,后二复式","viewBalls":"9|9","wayId":"70","jsId":3,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":1,"isTrace":1,"orders":{"181012072":"1","181012073":"1","181012074":"1","181012075":"1","181012076":"1"},"traceWinStop":1,"gameNameCn":"重庆时时彩","traceTimes":5}
+=====================
+2018-10-12 18:00:23
+user_id:1==>data:{"amount":"10.0000","balls":[{"ball":"9|9","position":[["9"],["9"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"erxing.zhixuan.houerfushi","typeCN":"二星,直选,后二复式","viewBalls":"9|9","wayId":"70","jsId":0,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":1,"isTrace":1,"orders":{"181012073":"1","181012074":"1","181012075":"1","181012076":"1","181012077":"1"},"traceWinStop":1,"gameNameCn":"重庆时时彩","traceTimes":5}
+=====================
+2018-10-12 18:12:35
+user_id:1==>data:{"amount":"10.0000","balls":[{"ball":"9|9","position":[["9"],["9"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"erxing.zhixuan.houerfushi","typeCN":"二星,直选,后二复式","viewBalls":"9|9","wayId":"70","jsId":0,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":1,"isTrace":1,"orders":{"181012074":"1","181012075":"1","181012076":"1","181012077":"1","181012078":"1"},"traceWinStop":1,"gameNameCn":"重庆时时彩","traceTimes":5}
+=====================
+2018-10-12 18:23:46
+user_id:17==>data:{"amount":"10.0000","balls":[{"ball":"9|9|9","position":[["9"],["9"],["9"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"housan.zhixuan.fushi","typeCN":"后三,直选,直选复式","viewBalls":"9|9|9","wayId":"69","jsId":0,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":12,"isTrace":1,"orders":{"2018278":"1","2018279":"1","2018280":"1","2018281":"1","2018282":"1"},"traceWinStop":1,"gameNameCn":"排列三/五","traceTimes":5}
+=====================
+2018-10-12 18:24:30
+user_id:17==>data:{"amount":"10.0000","balls":[{"ball":"9|9|9","position":[["9"],["9"],["9"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"housan.zhixuan.fushi","typeCN":"后三,直选,直选复式","viewBalls":"9|9|9","wayId":"69","jsId":0,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":12,"isTrace":1,"orders":{"2018278":"1","2018279":"1","2018280":"1","2018281":"1","2018282":"1"},"traceWinStop":1,"gameNameCn":"排列三/五","traceTimes":5}
+=====================
+2018-10-12 18:24:56
+user_id:17==>data:{"amount":"10.0000","balls":[{"ball":"9|9|9","position":[["9"],["9"],["9"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"housan.zhixuan.fushi","typeCN":"后三,直选,直选复式","viewBalls":"9|9|9","wayId":"69","jsId":0,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":12,"isTrace":1,"orders":{"2018278":"1","2018279":"1","2018280":"1","2018281":"1","2018282":"1"},"traceWinStop":1,"gameNameCn":"排列三/五","traceTimes":5}
+=====================
+2018-10-12 18:26:42
+user_id:17==>data:{"amount":"10.0000","balls":[{"ball":"9|9|9","position":[["9"],["9"],["9"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"housan.zhixuan.fushi","typeCN":"后三,直选,直选复式","viewBalls":"9|9|9","wayId":"69","jsId":0,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":12,"isTrace":1,"orders":{"2018278":"1","2018279":"1","2018280":"1","2018281":"1","2018282":"1"},"traceWinStop":1,"gameNameCn":"排列三/五","traceTimes":5}
+=====================
+2018-10-12 18:27:10
+user_id:17==>data:{"amount":"10.0000","balls":[{"ball":"9|9|9","position":[["9"],["9"],["9"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"housan.zhixuan.fushi","typeCN":"后三,直选,直选复式","viewBalls":"9|9|9","wayId":"69","jsId":0,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":12,"isTrace":1,"orders":{"2018278":"1","2018279":"1","2018280":"1","2018281":"1","2018282":"1"},"traceWinStop":1,"gameNameCn":"排列三/五","traceTimes":5}
+=====================
+2018-10-12 18:30:53
+user_id:17==>data:{"amount":"10.0000","balls":[{"ball":"9|9|9","position":[["9"],["9"],["9"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"housan.zhixuan.fushi","typeCN":"后三,直选,直选复式","viewBalls":"9|9|9","wayId":"69","jsId":0,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":12,"isTrace":1,"orders":{"2018278":"1","2018279":"1","2018280":"1","2018281":"1","2018282":"1"},"traceWinStop":1,"gameNameCn":"排列三/五","traceTimes":5}
+=====================
+2018-10-12 18:34:26
+user_id:17==>data:{"amount":"10.0000","balls":[{"ball":"9|9|9","position":[["9"],["9"],["9"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"housan.zhixuan.fushi","typeCN":"后三,直选,直选复式","viewBalls":"9|9|9","wayId":"69","jsId":0,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":12,"isTrace":1,"orders":{"2018278":"1","2018279":"1","2018280":"1","2018281":"1","2018282":"1"},"traceWinStop":1,"gameNameCn":"排列三/五","traceTimes":5}
+=====================
+2018-10-12 18:36:28
+user_id:17==>data:{"amount":"10.0000","balls":[{"ball":"9|9|9","position":[["9"],["9"],["9"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"housan.zhixuan.fushi","typeCN":"后三,直选,直选复式","viewBalls":"9|9|9","wayId":"69","jsId":0,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":12,"isTrace":1,"orders":{"2018278":"1","2018279":"1","2018280":"1","2018281":"1","2018282":"1"},"traceWinStop":1,"gameNameCn":"排列三/五","traceTimes":5}
+=====================
+2018-10-12 18:39:23
+user_id:17==>data:{"amount":"10.0000","balls":[{"ball":"9|9|9","position":[["9"],["9"],["9"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"housan.zhixuan.fushi","typeCN":"后三,直选,直选复式","viewBalls":"9|9|9","wayId":"69","jsId":0,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":12,"isTrace":1,"orders":{"2018278":"1","2018279":"1","2018280":"1","2018281":"1","2018282":"1"},"traceWinStop":1,"gameNameCn":"排列三/五","traceTimes":5}
+=====================
+2018-10-12 18:47:58
+user_id:17==>data:{"amount":"10.0000","balls":[{"ball":"9|9|9","position":[["9"],["9"],["9"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"housan.zhixuan.fushi","typeCN":"后三,直选,直选复式","viewBalls":"9|9|9","wayId":"69","jsId":0,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":12,"isTrace":1,"orders":{"2018278":"1","2018279":"1","2018280":"1","2018281":"1","2018282":"1"},"traceWinStop":1,"gameNameCn":"排列三/五","traceTimes":5}
+=====================
+2018-10-12 18:49:35
+user_id:17==>data:{"amount":"10.0000","balls":[{"ball":"9|9|9","position":[["9"],["9"],["9"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"housan.zhixuan.fushi","typeCN":"后三,直选,直选复式","viewBalls":"9|9|9","wayId":"69","jsId":0,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":12,"isTrace":1,"orders":{"2018278":"1","2018279":"1","2018280":"1","2018281":"1","2018282":"1"},"traceWinStop":1,"gameNameCn":"排列三/五","traceTimes":5}
+=====================

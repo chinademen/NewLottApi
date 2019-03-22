@@ -1,0 +1,18 @@
+2018-10-04 10:22:41
+user_id:17==>data:{"bet_record_id":2880,"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"1032","way":"176"}}},"isSuccess":true,"type":200}
+=====================
+2018-10-04 15:36:34
+user_id:17==>data:{"bet_record_id":2881,"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"01 02 03 04 05 06","way":"409"}}},"isSuccess":true,"type":200}
+=====================
+2018-10-04 18:19:56
+user_id:17==>data:{"bet_record_id":2882,"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"投注金额错误","tplData":null},"isSuccess":false,"type":4020}
+=====================
+2018-10-04 18:28:07
+user_id:17==>data:{"bet_record_id":2883,"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"投注金额错误","tplData":null},"isSuccess":false,"type":4020}
+=====================
+2018-10-04 18:28:40
+user_id:17==>data:{"bet_record_id":2884,"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"5 4 3 2 1 0","way":"109"}}},"isSuccess":true,"type":200}
+=====================
+2018-10-04 18:34:23
+user_id:17==>data:{"bet_record_id":2885,"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"5 4 3 2 1 0","way":"109"}}},"isSuccess":true,"type":200}
+=====================

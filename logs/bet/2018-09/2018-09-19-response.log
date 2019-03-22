@@ -1,0 +1,6 @@
+2018-09-19 14:30:26
+user_id:17==>data:{"bet_record_id":2783,"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"06 08","way":"381"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-19 14:30:39
+user_id:17==>data:{"bet_record_id":2784,"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"1|2|3|4","way":"295"}}},"isSuccess":true,"type":200}
+=====================

@@ -1,0 +1,9 @@
+2018-09-10 16:20:42
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"投注金額錯誤","tplData":null},"isSuccess":false,"type":4020}
+=====================
+2018-09-10 16:23:15
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"1|2|3|3|3|4|5|6|7|8","way":"177"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-10 16:26:42
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"1|2|3|4|4|5|6|7|8|9","way":"177"}}},"isSuccess":true,"type":200}
+=====================

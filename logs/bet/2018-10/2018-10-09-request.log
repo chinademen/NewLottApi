@@ -1,0 +1,15 @@
+2018-10-09 15:18:36
+user_id:1==>data:{"amount":"2.0000","balls":[{"ball":"6|6|6","position":[["6"],["6"],["6"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"housan.zhixuan.fushi","typeCN":"后三,直选,直选复式","viewBalls":"6|6|6","wayId":"69","jsId":0,"totalMoney":2,"rebate":"0.000000"}],"gameId":1,"isTrace":0,"orders":{"181009056":1},"traceWinStop":1,"gameNameCn":"重庆时时彩"}
+=====================
+2018-10-09 15:20:08
+user_id:1==>data:{"amount":"20.0000","balls":[{"ball":"7|7|78","position":[["7"],["7"],["7","8"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":2,"onePrice":2,"prizeGroup":"1950","type":"housan.zhixuan.fushi","typeCN":"后三,直选,直选复式","viewBalls":"7|7|78","wayId":"69","jsId":1,"totalMoney":4,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":1,"isTrace":1,"orders":{"181009056":"1","181009057":"1","181009058":"1","181009059":"1","181009060":"1"},"traceWinStop":1,"gameNameCn":"重庆时时彩","traceTimes":5}
+=====================
+2018-10-09 15:20:47
+user_id:1==>data:{"amount":"10.0000","balls":[{"ball":"3|3|3","position":[["3"],["3"],["3"]],"extra":{},"moneyunit":"1.000","multiple":1,"num":1,"onePrice":2,"prizeGroup":"1950","type":"housan.zhixuan.fushi","typeCN":"后三,直选,直选复式","viewBalls":"3|3|3","wayId":"69","jsId":3,"totalMoney":2,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":1,"isTrace":1,"orders":{"181009056":"1","181009057":"1","181009058":"1","181009059":"1","181009060":"1"},"traceWinStop":1,"gameNameCn":"重庆时时彩","traceTimes":5}
+=====================
+2018-10-09 16:05:14
+user_id:1==>data:{"amount":"2.0000","balls":[{"ball":"10","position":[["7"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1950","type":"hz.hz.fs","typeCN":"和值,和值,和值","viewBalls":"10","wayId":"157","jsId":0,"totalMoney":2,"rebate":"0.000000"}],"gameId":15,"isTrace":0,"orders":{"undefined":1},"traceWinStop":1,"gameNameCn":"江苏快三"}
+=====================
+2018-10-09 16:48:51
+user_id:1==>data:{"amount":"820.0000","balls":[{"ball":"9|9|9","position":[["9"],["9"],["9"]],"extra":{},"moneyunit":"1.000","multiple":410,"num":1,"onePrice":2,"prizeGroup":"1950","type":"housan.zhixuan.fushi","typeCN":"后三,直选,直选复式","viewBalls":"9|9|9","wayId":"69","jsId":1,"totalMoney":820,"rebate":"0.000000","moneyUnitData":"2元"}],"gameId":1,"isTrace":0,"orders":{"181009065":1},"traceWinStop":1,"gameNameCn":"重庆时时彩"}
+=====================

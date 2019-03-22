@@ -1,0 +1,6 @@
+2018-09-05 15:12:04
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"01 02","position":[],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1845","type":"renxuandanshi.renxuandanshi.rx2","typeCN":"任选单式,任选单式,任选二","viewBalls":"01 02","wayId":"418","jsId":0,"totalMoney":2,"rebate":"0.105000"}],"gameId":39,"isTrace":0,"orders":{"20180905038":1},"traceWinStop":1,"gameNameCn":"SCKL12"}
+=====================
+2018-09-05 15:13:32
+user_id:17==>data:{"amount":"2.0000","balls":[{"ball":"01 02 03 04 05 06","position":[],"extra":{},"moneyunit":"1.000","multiple":"1","num":1,"onePrice":2,"prizeGroup":"1845","type":"renxuandanshi.renxuandanshi.rx6","typeCN":"任选单式,任选单式,任选六","viewBalls":"01 02 03 04 05 06","wayId":"464","jsId":1,"totalMoney":2,"rebate":"0.105000"}],"gameId":39,"isTrace":0,"orders":{"20180905038":1},"traceWinStop":1,"gameNameCn":"SCKL12"}
+=====================

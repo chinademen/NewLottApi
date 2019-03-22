@@ -1,0 +1,9 @@
+2018-09-10 16:20:41
+user_id:17==>data:{"amount":"20.0000","balls":[{"ball":"1|2|3|4|5|6|7|8|9|10","position":[["0"],["1"],["2"],["3"],["4"],["5"],["6"],["7"],["8"],["9"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":10,"onePrice":2,"prizeGroup":"1950","type":"cmc.cmc.cmc","typeCN":"猜名次,猜名次,猜名次","viewBalls":"1|2|3|4|5|6|7|8|9|10","wayId":"177","jsId":1,"totalMoney":20,"rebate":"0.000000"}],"gameId":10,"isTrace":0,"orders":{"719276":1},"traceWinStop":1,"gameNameCn":"BJPK10"}
+=====================
+2018-09-10 16:23:14
+user_id:17==>data:{"amount":"20.0000","balls":[{"ball":"1|2|3|3|3|4|5|6|7|8","position":[["0"],["1"],["2"],["2"],["2"],["3"],["4"],["5"],["6"],["7"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":10,"onePrice":2,"prizeGroup":"1950","type":"cmc.cmc.cmc","typeCN":"猜名次,猜名次,猜名次","viewBalls":"1|2|3|3|3|4|5|6|7|8","wayId":"177","jsId":0,"totalMoney":20,"rebate":"0.100000"}],"gameId":10,"isTrace":0,"orders":{"703167":1},"traceWinStop":1,"gameNameCn":"北京PK拾"}
+=====================
+2018-09-10 16:26:41
+user_id:17==>data:{"amount":"20.0000","balls":[{"ball":"1|2|3|4|4|5|6|7|8|9","position":[["0"],["1"],["2"],["3"],["3"],["4"],["5"],["6"],["7"],["8"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":10,"onePrice":2,"prizeGroup":"1950","type":"cmc.cmc.cmc","typeCN":"猜名次,猜名次,猜名次","viewBalls":"1|2|3|4|4|5|6|7|8|9","wayId":"177","jsId":1,"totalMoney":20,"rebate":"0.100000"}],"gameId":10,"isTrace":0,"orders":{"703167":1},"traceWinStop":1,"gameNameCn":"北京PK拾"}
+=====================

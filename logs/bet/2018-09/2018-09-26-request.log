@@ -1,0 +1,6 @@
+2018-09-26 16:36:19
+user_id:1==>data:{"amount":"0.0240","balls":[{"ball":"567|56|56","position":[["5","6","7"],["5","6"],["5","6"]],"extra":{},"moneyunit":0.001,"multiple":"1","num":12,"onePrice":2,"prizeGroup":"1950","type":"housan.zhixuan.fushi","typeCN":"后三,直选,直选复式","viewBalls":"567|56|56","wayId":"69","jsId":0,"totalMoney":0.024,"rebate":"0.000000"}],"gameId":1,"isTrace":0,"orders":{"180926064":1},"traceWinStop":1,"gameNameCn":"重庆时时彩"}
+=====================
+2018-09-26 17:40:29
+user_id:17==>data:{"amount":"1980.0000","balls":[{"ball":"01 02 03 04 05 06 07 08 09 10 11|01 02 03 04 05 06 07 08 09 10 11|01 02 03 04 05 06 07 08 09 10 11","position":[["0","1","2","3","4","5","6","7","8","9","10"],["0","1","2","3","4","5","6","7","8","9","10"],["0","1","2","3","4","5","6","7","8","9","10"]],"extra":{},"moneyunit":"1.000","multiple":"1","num":990,"onePrice":2,"prizeGroup":"1950","type":"sanma.zhixuan.fushi","typeCN":"三码,直选,前三直选复式","viewBalls":"01 02 03 04 05 06 07 08 09 10 11|01 02 03 04 05 06 07 08 09 10 11|01 02 03 04 05 06 07 08 09 10 11","wayId":"112","jsId":1,"totalMoney":1980,"rebate":"0.000000"}],"gameId":53,"isTrace":0,"orders":{"18092657":1},"traceWinStop":1,"gameNameCn":"河北11选5"}
+=====================

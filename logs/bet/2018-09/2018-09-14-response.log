@@ -1,0 +1,9 @@
+2018-09-14 10:14:28
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"06 08","way":"381"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-14 10:14:48
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"6","way":"83"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-14 10:14:49
+user_id:17==>data:{"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"06 08","way":"381"}}},"isSuccess":true,"type":200}
+=====================

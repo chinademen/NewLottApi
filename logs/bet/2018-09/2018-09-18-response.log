@@ -1,0 +1,18 @@
+2018-09-18 16:19:53
+user_id:1==>data:{"bet_record_id":2777,"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"7|5|67","way":"69"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-18 16:35:00
+user_id:1==>data:{"bet_record_id":2778,"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"6|6|6","way":"136"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-18 16:41:29
+user_id:1==>data:{"bet_record_id":2779,"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"6|67|7","way":"136"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-18 16:43:49
+user_id:1==>data:{"bet_record_id":2780,"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"5|5|56","way":"136"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-18 17:02:10
+user_id:1==>data:{"bet_record_id":2781,"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"5|5|5","way":"136"}}},"isSuccess":true,"type":200}
+=====================
+2018-09-18 17:06:22
+user_id:1==>data:{"bet_record_id":2782,"data":{"link":"43.231.230.10/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"2|23|2","way":"136"}}},"isSuccess":true,"type":200}
+=====================

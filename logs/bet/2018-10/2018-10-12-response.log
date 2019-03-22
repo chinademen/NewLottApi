@@ -1,0 +1,30 @@
+2018-10-12 14:22:36
+user_id:17==>data:{"bet_record_id":2902,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"1|2|3","way":"158"}}},"isSuccess":true,"type":200}
+=====================
+2018-10-12 14:52:13
+user_id:17==>data:{"bet_record_id":2905,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"1|2|3","way":"158"}}},"isSuccess":true,"type":200}
+=====================
+2018-10-12 14:57:25
+user_id:17==>data:{"bet_record_id":2906,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"1|2|3","way":"158"}}},"isSuccess":true,"type":200}
+=====================
+2018-10-12 14:58:17
+user_id:17==>data:{"bet_record_id":2907,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"1|2|3","way":"158"}}},"isSuccess":true,"type":200}
+=====================
+2018-10-12 15:06:00
+user_id:17==>data:{"bet_record_id":2910,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"1|2|3","way":"158"}}},"isSuccess":true,"type":200}
+=====================
+2018-10-12 15:47:43
+user_id:17==>data:{"bet_record_id":2911,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"success","tplData":{"1":{"ball":"8|9","way":"157"}}},"isSuccess":true,"type":200}
+=====================
+2018-10-12 17:55:29
+user_id:1==>data:{"bet_record_id":2925,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"投注总额过低(必须大于2分钱)","tplData":null},"isSuccess":false,"type":4023}
+=====================
+2018-10-12 17:55:43
+user_id:1==>data:{"bet_record_id":2926,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"投注总额过低(必须大于2分钱)","tplData":null},"isSuccess":false,"type":4023}
+=====================
+2018-10-12 18:00:23
+user_id:1==>data:{"bet_record_id":2927,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"投注总额过低(必须大于2分钱)","tplData":null},"isSuccess":false,"type":4023}
+=====================
+2018-10-12 18:12:35
+user_id:1==>data:{"bet_record_id":2930,"data":{"link":"103.230.218.241/v1/game/bet.do","msg":"投注总额过低(必须大于2分钱)","tplData":null},"isSuccess":false,"type":4023}
+=====================
